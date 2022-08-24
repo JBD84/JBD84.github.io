@@ -1,13 +1,13 @@
  <div align="center" id="top"> 
   <img src="./.github/app.gif" 
-  alt="Portfolio." />
+  alt="Javier Bambaren D." />
 
 &#xa0;
 
   <!-- <a href="https://JBD.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Portfolio</h1>
+<h1 align="center">Porfolio.</h1>
 <div align="center">
   <img alt ="Portfolio" src="assets/img/portada.png">
 </div>
@@ -16,6 +16,7 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#construction_worker-Road Map">Road Map</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
