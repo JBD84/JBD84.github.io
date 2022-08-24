@@ -7,7 +7,7 @@
   <!-- <a href="https://JBD.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Javier Bambaren D.</h1>
+<h1 align="center">Portfolio</h1>
 <div align="center">
   <img alt ="Portfolio" src="assets/img/portada.png">
 </div>
