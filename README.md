@@ -1,8 +1,6 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="" />
-
  <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Javier Bambaren D." />
+  <img src="./.github/app.gif" 
+  alt="Javier Bambaren D." />
 
 &#xa0;
 
@@ -11,7 +9,7 @@
 
 <h1 align="center">Javier Bambaren D.</h1>
 <div align="center">
-  <img alt ="Portfolio" src="assets/img/portada.png.png">
+  <img alt ="Portfolio" src="assets/img/portada.png">
 </div>
 
 <p align="center">
