@@ -11,25 +11,8 @@
 
 <h1 align="center">Javier Bambaren D.</h1>
 <div align="center">
-  <img alt ="Portfolio" src="images/JavierBambarenDPortfolio.png">
+  <img alt ="Portfolio" src="assets/img/portada.png.png">
 </div>
-
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/JBD84/Pacmen?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/JBD84/Pacmen?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JBD84/Pacmen?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/JBD84/Pacmen?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/JBD84/Pacmen?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/JBD84/Pacmen?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/JBD84/Pacmen?color=56BEB8" /> -->
-</p>
-
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -38,40 +21,39 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/JBD84" target="_blank">Javier Bambaren D.</a>
+  <a href="https://github.com/JBD84" target="_blank">Author.</a>
 </p>
 
 <br>
 
 ## :dart: About
 
-Is a fun project that takes us back to the beginning of code
+This Portfolio is a project to teach the skills developed step by step
 
-Javascript basics and DOM manipulation. 
-Creating as many pacman as requested and move all changing the direction if needed.
+Technology & Reality merging
+"In a world that everythink in programable, your only limit is your imagination."
 
 ## :sparkles: Features
 
-:heavy_check_mark: Creating pacmen in DOM as requested\
-:heavy_check_mark: Pacmen moving X and Y\
-:heavy_check_mark: Detect collision.
+:heavy_check_mark: Information
+:heavy_check_mark: Videos and Proyects
+:heavy_check_mark: The best way to Contact
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
 - [Javascript](https://javascript.com/)
+- [CSS] (https://css.com/)
 - [HTML](https://html.com/)
+
 
 ## :construction_worker: Roadmap
 
 <ul>
-<li>Clear all pacmen to start from scratch
-<li>Limit the maximum number of pacmen that can be created
-<li>Stop the pacmen if needed
-<li>Allow the user to change the update time according to preferences
-<li>Apply some CSS changes to show a more customized experience
-<li>Detect collision between all the running pacmen
+<li>Check out the ways to get started.
+<li>Browse inside the Portfolio 
+<li>Enjoy the experience
 </ul>
 
 ## :white_check_mark: Requirements
@@ -81,6 +63,9 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) in
 ## :checkered_flag: Starting
 
 ```bash
+#The best way
+$ paste it into your browser https://jbd84.github.io/
+
 # Clone this project
 $ git clone https://github.com/JBD84/JBD84.github.io
 
@@ -92,7 +77,7 @@ $ cd JBD84.github.io
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made by: heart <a href="https://github.com/JBD84" target="_blank">Javier Bambaren D.</a>
+Made by: Heart & Pasion <a href="https://github.com/JBD84" target="_blank">Javier Bambaren D.</a>
 
 &#xa0;
 
