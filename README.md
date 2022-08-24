@@ -1,6 +1,6 @@
  <div align="center" id="top"> 
   <img src="./.github/app.gif" 
-  alt="Javier Bambaren D." />
+  alt="Portfolio." />
 
 &#xa0;
 
