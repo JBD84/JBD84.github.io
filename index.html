@@ -1,719 +1,461 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javier Bambarén Dabdoub — Founder · Builder · Lima, Perú</title>
+  <meta name="description" content="+20 años produciendo eventos. Ahora transformo la industria con código e Inteligencia Artificial. Fundador de EventOS — AI-Native Events Operating System." />
+  <meta name="author" content="Javier Bambarén Dabdoub" />
+  <meta name="keywords" content="Javier Bambarén, EventOS, eventos Lima, AI native, founder Peru, MIT, producción de eventos, Inteligencia Artificial eventos" />
+  <link rel="canonical" href="https://jbd84.github.io/" />
 
-  <title>Javier Bambaren D. Portafolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Javier Bambarén Dabdoub — Founder & Builder" />
+  <meta property="og:description" content="+20 años produciendo eventos. Ahora transformo la industria completa con código e Inteligencia Artificial. Fundador de EventOS." />
+  <meta property="og:url" content="https://jbd84.github.io/" />
+  <meta property="og:image" content="https://jbd84.github.io/assets/foto_javier_bambaren_2.jpg" />
+  <meta property="og:locale" content="es_PE" />
+  <meta property="og:site_name" content="Javier Bambarén Dabdoub" />
+  <meta property="profile:first_name" content="Javier" />
+  <meta property="profile:last_name" content="Bambarén Dabdoub" />
 
-  <!-- Favicons -->
-  <link href="assets/img/jbdlogo.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Javier Bambarén Dabdoub — Founder & Builder" />
+  <meta name="twitter:description" content="+20 años produciendo eventos. Ahora transformo la industria con código e Inteligencia Artificial." />
+  <meta name="twitter:image" content="https://jbd84.github.io/assets/foto_javier_bambaren_2.jpg" />
+  <meta name="twitter:creator" content="@JavierBambarenD" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Javier Bambarén Dabdoub",
+      "alternateName": "JBD",
+      "url": "https://jbd84.github.io/",
+      "image": "https://jbd84.github.io/assets/foto_javier_bambaren_2.jpg",
+      "jobTitle": "Founder & CEO",
+      "description": "Emprendedor con +20 años en producción de eventos, programador, formado en MIT, subcampeón mundial de Luta Livre 2022. Fundador de EventOS.",
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Massachusetts Institute of Technology", "alternateName": "MIT", "url": "https://www.mit.edu" },
+      "knowsAbout": ["Producción de eventos","Inteligencia Artificial","Desarrollo de software","Realidad Virtual","Blockchain","Emprendimiento","Artes marciales"],
+      "sameAs": ["https://www.linkedin.com/in/javier-bambaren-dabdoub/","https://www.instagram.com/javier.bambaren/","https://www.youtube.com/@javierbambarendabdoub","https://github.com/JBD84"],
+      "founder": { "@type": "Organization", "name": "EventOS", "url": "https://events-operating-system.github.io/events-landing/" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "EventOS",
+      "alternateName": "AI-Native Events Operating System",
+      "url": "https://events-operating-system.github.io/events-landing/",
+      "description": "El primer sistema operativo AI-native para la industria de producción de eventos.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "author": { "@type": "Person", "name": "Javier Bambarén Dabdoub" }
+    }
+  ]
+  </script>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --blue: #0052ff; --blue-dark: #0039b3;
+      --text: #0a0a0c; --muted: #666;
+      --border: #ebebeb; --bg2: #fafafa;
+    }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: #fff; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+    .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
 
-  <!-- =======================================================
-  * Template Name: MyResume - v4.8.1
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    /* NAV */
+    nav { border-bottom: 1px solid #f0f0f0; padding: 16px 0; }
+    .nav-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .nav-brand { font-size: 16px; font-weight: 900; letter-spacing: -0.02em; color: var(--text); text-decoration: none; white-space: nowrap; }
+    .nav-brand em { color: var(--blue); font-style: normal; }
+    .nav-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .nav-socials { display: flex; gap: 6px; }
+    .nav-socials a {
+      display: flex; align-items: center; justify-content: center;
+      width: 34px; height: 34px;
+      border: 1px solid #e8e8e8; border-radius: 8px;
+      color: #666; text-decoration: none; transition: all .2s;
+    }
+    .nav-socials a svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .nav-socials a:hover { color: var(--blue); border-color: #b8cbff; background: #f0f4ff; }
+    .nav-cta { background: var(--blue); color: #fff; font-weight: 700; font-size: 12px; border-radius: 9px; padding: 9px 16px; text-decoration: none; white-space: nowrap; transition: background .2s; }
+    .nav-cta:hover { background: var(--blue-dark); }
+
+    /* HERO */
+    .hero { padding: 48px 0 32px; display: grid; grid-template-columns: 1fr 200px; gap: 32px; align-items: start; }
+    .hero-tag { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #555; border: 1px solid #ddd; border-radius: 100px; padding: 5px 14px; margin-bottom: 20px; }
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); animation: blink 2s infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+    h1 { font-size: clamp(24px, 4vw, 34px); font-weight: 900; letter-spacing: -0.04em; line-height: 1.05; margin-bottom: 16px; }
+    h1 .blue { color: var(--blue); }
+    .hero-desc { font-size: clamp(13px, 2vw, 14px); color: var(--muted); max-width: 460px; line-height: 1.8; margin-bottom: 22px; }
+    .hero-desc b { color: var(--text); font-weight: 700; }
+    .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-primary { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 12px 22px; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-block; transition: background .2s; }
+    .btn-primary:hover { background: var(--blue-dark); }
+    .btn-ghost { background: transparent; color: var(--text); border: 1.5px solid #ddd; border-radius: 10px; padding: 12px 22px; font-size: 13px; font-weight: 600; text-decoration: none; display: inline-block; transition: all .2s; }
+    .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
+    .hero-photo { width: 200px; height: 220px; border-radius: 20px; overflow: hidden; border: 3px solid #f0f0f0; }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+    .hero-photo-label { margin-top: 10px; text-align: center; }
+    .hero-photo-label strong { display: block; font-size: 12px; font-weight: 800; }
+    .hero-photo-label span { font-size: 10px; color: #aaa; }
+
+    /* GALLERY */
+    .gallery-section { margin-bottom: 28px; }
+    .gallery-label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #aaa; margin-bottom: 10px; }
+    .gallery-strip { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+    .gallery-item { border-radius: 12px; overflow: hidden; aspect-ratio: 4/3; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s; }
+    .gallery-item:hover img { transform: scale(1.04); }
+
+    /* STATS */
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #e8e8e8; border: 1px solid #e8e8e8; border-radius: 14px; overflow: hidden; margin-bottom: 28px; }
+    .stat { background: #fff; padding: 18px 14px; }
+    .stat-val { font-size: clamp(20px, 3vw, 26px); font-weight: 900; letter-spacing: -0.05em; color: var(--blue); line-height: 1; }
+    .stat-label { font-size: 10px; font-weight: 500; color: #aaa; margin-top: 6px; line-height: 1.4; }
+
+    /* BLUE BLOCKS */
+    .blue-block { background: var(--blue-dark); border-radius: 18px; padding: 32px; margin-bottom: 28px; position: relative; overflow: hidden; }
+    .blue-block::after { content: ''; position: absolute; bottom: -50px; right: -50px; width: 160px; height: 160px; background: rgba(255,255,255,.06); border-radius: 50%; }
+    .blue-block .quote { font-size: clamp(15px, 2.5vw, 20px); font-weight: 900; color: #fff; letter-spacing: -0.03em; line-height: 1.3; max-width: 520px; position: relative; z-index: 2; margin-bottom: 10px; }
+    .blue-block .attr { font-size: 11px; color: rgba(255,255,255,.45); position: relative; z-index: 2; }
+
+    /* SECTIONS */
+    .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
+    h2 { font-size: clamp(20px, 3.5vw, 26px); font-weight: 900; letter-spacing: -0.04em; line-height: 1.05; margin-bottom: 20px; }
+    h2 span { color: var(--blue); }
+
+    /* CARDS */
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 22px; }
+    .card { border-radius: 14px; padding: 20px; background: var(--bg2); border: 1px solid var(--border); }
+    .card.accent { background: #f0f4ff; border-color: #d8e4ff; }
+    .card-ico { width: 34px; height: 34px; border-radius: 9px; display: flex; align-items: center; justify-content: center; background: #fff; border: 1px solid #e0e0e0; margin-bottom: 12px; }
+    .card-ico svg { width: 18px; height: 18px; fill: none; stroke: var(--blue); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .card-h { font-size: 13px; font-weight: 800; margin-bottom: 3px; }
+    .card-sub { font-size: 10px; font-weight: 600; color: var(--blue); margin-bottom: 8px; }
+    .card-p { font-size: 11.5px; color: var(--muted); line-height: 1.65; }
+    .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
+    .tag { font-size: 9px; font-weight: 600; color: #555; background: #fff; border: 1px solid #e8e8e8; border-radius: 5px; padding: 3px 7px; }
+    .tag.b { background: #e6eeff; border-color: #b8cbff; color: #0039b3; }
+
+    /* MIT BAR */
+    .mit-bar { display: flex; align-items: center; gap: 16px; border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 28px; background: var(--bg2); }
+    .mit-logo { font-size: 22px; font-weight: 900; letter-spacing: -0.05em; flex-shrink: 0; }
+    .mit-logo span { color: #a00; }
+    .mit-p { font-size: 11.5px; color: var(--muted); line-height: 1.55; }
+    .mit-p b { color: var(--text); font-weight: 700; }
+
+    /* PHOTOS ROW */
+    .photos-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 28px; }
+    .photo-wrap { border-radius: 14px; overflow: hidden; position: relative; }
+    .photo-wrap img { width: 100%; height: 200px; object-fit: cover; object-position: center; display: block; }
+    .photo-cap { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,.6); padding: 10px 14px; }
+    .photo-cap strong { font-size: 11px; font-weight: 700; color: #fff; display: block; }
+    .photo-cap span { font-size: 10px; color: rgba(255,255,255,.6); }
+    .divider { height: 1px; background: #f0f0f0; margin: 28px 0; }
+
+    /* SPORT */
+    .sport-block { background: var(--blue-dark); border-radius: 18px; padding: 28px; margin-bottom: 12px; position: relative; overflow: hidden; }
+    .sport-block::after { content: ''; position: absolute; top: -40px; right: -40px; width: 140px; height: 140px; background: rgba(255,255,255,.05); border-radius: 50%; }
+    .sport-eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 14px; }
+    .formula { font-size: clamp(12px, 2vw, 15px); font-weight: 900; color: #fff; line-height: 1.7; position: relative; z-index: 2; }
+    .formula .op { color: rgba(255,255,255,.3); margin: 0 5px; }
+    .formula .result { color: #7eb8ff; }
+    .medals { display: flex; flex-direction: column; gap: 12px; margin-top: 22px; position: relative; z-index: 2; }
+    .medal-row { display: flex; align-items: flex-start; gap: 12px; }
+    .medal-ico { font-size: 20px; flex-shrink: 0; line-height: 1.2; }
+    .medal-title { font-size: 13px; font-weight: 800; color: #fff; line-height: 1.3; }
+    .medal-detail { font-size: 10px; color: rgba(255,255,255,.4); margin-top: 3px; }
+    .sport-more { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 28px; }
+    .sport-more-label { font-size: 10px; font-weight: 700; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
+    .sport-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .sp { font-size: 10px; font-weight: 600; background: #fff; border: 1px solid #e0e0e0; border-radius: 100px; padding: 4px 12px; color: #555; }
+
+    /* HUMAN */
+    .human-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 28px; }
+    .hcard { border-radius: 14px; padding: 22px; background: var(--bg2); border: 1px solid var(--border); }
+    .hcard.blue-tint { background: #f0f4ff; border-color: #d0deff; }
+    .hc-big { font-size: clamp(18px, 3vw, 22px); font-weight: 900; letter-spacing: -0.04em; line-height: 1.1; color: #0039b3; margin-bottom: 8px; }
+    .hc-sub { font-size: 11.5px; color: #5070c0; line-height: 1.6; }
+    .hc-list { display: flex; flex-direction: column; gap: 12px; }
+    .hc-item { display: flex; align-items: center; gap: 10px; font-size: 12px; font-weight: 600; color: #444; }
+    .hc-item svg { width: 16px; height: 16px; fill: none; stroke: var(--blue); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+
+    /* BUILD */
+    .build-block { background: var(--blue-dark); border-radius: 18px; padding: 36px; margin-bottom: 36px; position: relative; overflow: hidden; }
+    .build-block::before { content: ''; position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,.05); border-radius: 50%; }
+    .build-ey { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 12px; }
+    .build-h { font-size: clamp(18px, 3vw, 24px); font-weight: 900; color: #fff; letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 10px; position: relative; z-index: 2; }
+    .build-p { font-size: 13px; color: rgba(255,255,255,.6); line-height: 1.75; margin-bottom: 18px; max-width: 480px; position: relative; z-index: 2; }
+    .build-pills { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 22px; position: relative; z-index: 2; }
+    .build-pill { font-size: 10px; font-weight: 600; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: 100px; padding: 5px 12px; color: rgba(255,255,255,.85); }
+    .build-btns { display: flex; gap: 10px; flex-wrap: wrap; position: relative; z-index: 2; }
+    .btn-white { background: #fff; color: var(--blue-dark); border-radius: 9px; padding: 12px 22px; font-size: 13px; font-weight: 800; text-decoration: none; display: inline-block; transition: opacity .2s; }
+    .btn-white:hover { opacity: .9; }
+    .btn-outline-w { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.3); border-radius: 9px; padding: 12px 22px; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-block; transition: border-color .2s; }
+    .btn-outline-w:hover { border-color: rgba(255,255,255,.7); }
+
+    /* FOOTER */
+    footer { border-top: 1px solid #f0f0f0; padding: 32px 0 20px; }
+    .footer-inner { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+    .footer-name { font-size: 16px; font-weight: 900; letter-spacing: -0.03em; }
+    .footer-socials { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .footer-socials a { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; color: #555; text-decoration: none; border: 1px solid #e8e8e8; border-radius: 9px; padding: 9px 16px; transition: all .2s; }
+    .footer-socials a svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+    .footer-socials a:hover { color: var(--blue); border-color: #b8cbff; background: #f0f4ff; }
+    .footer-tagline { font-size: 13px; font-weight: 700; }
+    .footer-copy { display: flex; align-items: center; gap: 5px; font-size: 10px; color: #bbb; }
+
+    /* RESPONSIVE — TABLET */
+    @media (max-width: 768px) {
+      .container { padding: 0 18px; }
+      .nav-brand { font-size: 13px; }
+      .hero { grid-template-columns: 1fr; padding: 36px 0 24px; gap: 28px; }
+      .hero > div:last-child { order: -1; display: flex; flex-direction: column; align-items: center; }
+      .hero-photo { width: 130px; height: 144px; border-radius: 16px; }
+      .gallery-strip { grid-template-columns: repeat(3, 1fr); }
+      .gallery-strip .gallery-item:nth-child(n+4) { display: none; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .grid2 { grid-template-columns: 1fr; }
+      .photos-row { grid-template-columns: 1fr; }
+      .human-grid { grid-template-columns: 1fr; }
+      .build-btns { flex-direction: column; }
+      .btn-white, .btn-outline-w { text-align: center; }
+    }
+
+    /* RESPONSIVE — MOBILE */
+    @media (max-width: 480px) {
+      .container { padding: 0 14px; }
+      .nav-socials { display: none; }
+      .nav-brand { font-size: 12px; max-width: 180px; white-space: normal; line-height: 1.3; }
+      .hero { padding: 28px 0 20px; gap: 20px; }
+      .hero-photo { width: 110px; height: 122px; }
+      h1 { font-size: 22px; }
+      h2 { font-size: 19px; }
+      .gallery-strip { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+      .gallery-strip .gallery-item:nth-child(n+3) { display: none; }
+      .stat { padding: 14px 10px; }
+      .blue-block { padding: 22px; border-radius: 14px; }
+      .card { padding: 16px; }
+      .mit-bar { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .sport-block { padding: 22px; border-radius: 14px; }
+      .build-block { padding: 22px; border-radius: 14px; }
+      .photos-row .photo-wrap img { height: 160px; }
+      .footer-socials { gap: 8px; }
+      .footer-socials a { font-size: 11px; padding: 8px 12px; }
+    }
+  </style>
 </head>
-
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
+  <!-- SVG icon defs reutilizables -->
+  <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="ico-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="ico-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+    <symbol id="ico-youtube" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></symbol>
+    <symbol id="ico-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+    <symbol id="ico-confetti" viewBox="0 0 24 24"><path d="M4 5h2m-2 4h2M4 13h2M15 4l-11 11 4 4 4-4-4-4 7-7z"/><path d="M19 9l-5 5m3-8l2 2-8 8"/></symbol>
+    <symbol id="ico-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+    <symbol id="ico-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></symbol>
+    <symbol id="ico-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
+    <symbol id="ico-heart" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+    <symbol id="ico-run" viewBox="0 0 24 24"><circle cx="13" cy="4" r="1"/><path d="M5.77 8.33L2 9.25l.79 4.94L6 13v9h2v-9.5L5.77 8.33z"/><path d="M10 16l-1-5 4 1 3 4h2v2h-3l-2-3-1.5 1V22h-2v-6z"/><path d="M8 7l2-1 3 3 2-1"/></symbol>
+    <symbol id="ico-brain" viewBox="0 0 24 24"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-1.14z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.46 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-1.14z"/></symbol>
+    <symbol id="ico-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="ico-copyright" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M14.83 14.83a4 4 0 1 1 0-5.66"/></symbol>
+  </svg>
 
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>VIDEO</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Javier Bambaren D.</h1>
-      <p>I'm <span class="typed" data-typed-items=" Chief Digital Officer, Full Stack Developer, Blockchain - AI enthusiast"></span></p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/?locale=en_US" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/JBD84" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://twitter.com/JavierBambarenD" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/javier.bambaren" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/jbambaren/" class="instagram"><i class="bx bxl-instagram"></i></a>
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="nav-brand">Javier Bambarén Dabdoub<em>.</em></a>
+      <div class="nav-right">
+        <div class="nav-socials">
+          <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" aria-label="LinkedIn">
+            <svg><use href="#ico-linkedin"/></svg>
+          </a>
+          <a href="https://www.instagram.com/javier.bambaren/" target="_blank" aria-label="Instagram">
+            <svg><use href="#ico-instagram"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@javierbambarendabdoub" target="_blank" aria-label="YouTube">
+            <svg><use href="#ico-youtube"/></svg>
+          </a>
+          <a href="https://github.com/JBD84" target="_blank" aria-label="GitHub">
+            <svg><use href="#ico-github"/></svg>
+          </a>
+        </div>
+        <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="nav-cta">Ver EventOS →</a>
       </div>
     </div>
-  </section><!-- End Hero -->
+  </nav>
 
-  <main id="main">
+  <main class="container">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Biography</h2>
-          <p>"In a world that everythink in programable, your only limit is your imagination." (JBD)</p>
+    <section class="hero">
+      <div>
+        <div class="hero-tag"><span class="dot"></span>Lima, Perú · Founder · Builder</div>
+        <h1>+20 años produciendo eventos. Ahora transformo la industria con código e <span class="blue">Inteligencia Artificial.</span></h1>
+        <p class="hero-desc">Operé eventos. Monté una discoteca. Peleé en campeonatos mundiales. Estudié en el <b>MIT (Massachusetts Institute of Technology)</b>. Y hoy construyo el primer sistema operativo AI-native para la industria de eventos — porque nadie más tiene esta combinación exacta.</p>
+        <div class="btns">
+          <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="btn-primary">Ver EventOS →</a>
+          <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" class="btn-ghost">Conectar</a>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/jbdprensa.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Full Stack Developer; Chief Digital Officer; World Luta Libre runner-up.</h3>
-            <p class="fst-italic">
-              "There are two types of people: those who observe and criticize, and those who make things happen. Only you choose."
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>8 Nov 1984</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>CEO & Co-Founder:</strong> <span>Reality Near Metaverse</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>ONLY Whatsapp:</strong> <span>(+51) 993 513 194</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span>JBD84</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>40</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MBA</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>bambaja@icloud.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available Only to change the World</span></li>
-                </ul>
-              </div>
-            </div>
-            <p>
-              Passionate about Blockchain & AI, Programming, and Martial Arts. I have over 20 years of experience in entertainment and technology. To develop a project that can be innovative, it is important to be able to understand the appropriate process and language with the consumer, so if you want a comprehensive solution that changes the world, you are in the right place
-            </p>
-          </div>
-        </div>
-
       </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>Let the actions speak!</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="65000" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Entertainment Customers</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="650" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5000" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Consulting Hours</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Sports Awards</p>
-            </div>
-          </div>
-
-        </div>
-
+      <div>
+        <div class="hero-photo"><img src="assets/foto_javier_bambaren_2.jpg" alt="Javier Bambarén Dabdoub" /></div>
+        <div class="hero-photo-label"><strong>Javier Bambarén D.</strong><span>Founder · EventOS</span></div>
       </div>
-    </section><!-- End Facts Section -->
+    </section>
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>"Seeing the global panorama allows you not to have to put out small fires but to focus on what is important."(JBD)</p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">Problem solution <i class="val">99%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="99"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Developer <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Blockchain & AI <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">Business <i class="val">99%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="99"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Creativity <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Speed to learn <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
+    <section class="gallery-section">
+      <div class="gallery-label">20+ años de producción de eventos</div>
+      <div class="gallery-strip">
+        <div class="gallery-item"><img src="assets/evento-1.jpg" alt="Evento JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-2.jpg" alt="Evento JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-3.jpg" alt="Evento JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-4.jpg" alt="Evento JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-5.jpg" alt="Evento JBD Producciones" /></div>
       </div>
-    </section><!-- End Skills Section -->
+    </section>
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
+    <div class="stats">
+      <div class="stat"><div class="stat-val">20+</div><div class="stat-label">Experiencia<br>operando eventos</div></div>
+      <div class="stat"><div class="stat-val">#2</div><div class="stat-label">Logros deportivos<br>Mundial · Brasil 2022</div></div>
+      <div class="stat"><div class="stat-val">MIT</div><div class="stat-label">Estudios<br>4 programas</div></div>
+      <div class="stat"><div class="stat-val">0→1</div><div class="stat-label">Situación actual<br>construyendo EventOS</div></div>
+    </div>
 
-        <div class="section-title">
-          <h2>Personal History</h2>
-          <p>I don't know anything about how to outperform others. I only know the way to overcome myself. (Bushido)</p>
-        </div>
+    <div class="blue-block">
+      <p class="quote">"En un mundo donde todo es programable, tu imaginación es el único límite."</p>
+      <p class="attr">Una frase que nació en pandemia y hoy guía cada decisión de negocio.</p>
+    </div>
 
-        <div class="row">
-          <iframe width="1000" height="500" src="https://www.youtube.com/embed/r1yOP6ODnxc">
-          </iframe>
-          <br>
-          <br>
-        </div> 
+    <div class="eyebrow">Founder-market fit</div>
+    <h2>Hay founders. Y hay founders<br>que ya <span>vivieron</span> el problema.</h2>
 
-        <div class="section-title">
-          <br>
-          <br>
-          <h2>TV Interviews</h2>
-          <p>Don't pray for an easy life, pray for the strength to face a difficult life. (Bruce Lee)</p>
-        </div>
-
-        <div class="row">
-          <iframe width="1000" height="500" src="https://www.youtube.com/embed/GFRPhCgq3uY">
-          </iframe>
-        </div>  
-
+    <div class="grid2">
+      <div class="card">
+        <div class="card-ico"><svg><use href="#ico-confetti"/></svg></div>
+        <div class="card-h">20 años en el juego real</div>
+        <div class="card-sub">Operador · no consultor</div>
+        <p class="card-p">Discoteca propia, bar, local de eventos, producción masiva. Dos décadas con capital propio en riesgo. Conozco cada dolor operativo porque lo pagué de mi bolsillo.</p>
+        <div class="tags"><span class="tag">Producción de eventos</span><span class="tag">Nightlife ops</span><span class="tag">Capital propio</span></div>
       </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Here we are going to find some fun projects</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Vintage</li>
-              <li data-filter=".filter-web">Crazy Things</li>
-              <li data-filter=".filter-card">Functionality</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/PacMan1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Pacmen</h4>
-                <p>Vintage</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/PacMan1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Is a fun project that takes us back to the beginning of code."><i class="bx bx-plus"></i></a>
-                  <div class="social-links">
-                    <a href="https://github.com/JBD84/Pacmen" class="github"><i class="bx bxl-github"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Eyes.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>EYES</h4>
-                <p>Crazy Things</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Eyes.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fun can always start with a little craziness"><i class="bx bx-plus"></i></a>
-                  <div class="social-links">
-                    <a href="https://github.com/JBD84/EyesMovement" class="github"><i class="bx bxl-github"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/MapMirafloresDrink.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Real Time Bus Tracking</h4>
-                <p>Functionality</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/MapMirafloresDrink.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The functionality of Mapbox opens up a gigantic world."><i class="bx bx-plus"></i></a>
-                  <div class="social-links">
-                    <a href="https://github.com/JBD84/RealTimeBusTracker" class="github"><i class="bx bxl-github"></i></a>
-                  </div>  
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>-->
-
-          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>-->
-
-         <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-        </div>
-
+      <div class="card accent">
+        <div class="card-ico"><svg><use href="#ico-code"/></svg></div>
+        <div class="card-h">Ingeniero que ejecuta</div>
+        <div class="card-sub">No delega. Construye.</div>
+        <p class="card-p">Aprendí a programar, construí un metaverso en pandemia. MIT — Fullstack Developer, Chief Digital Officer y Ciberseguridad. Presencial en Cambridge y virtual en MITxPro.</p>
+        <div class="tags"><span class="tag b">MIT Professional</span><span class="tag b">Fullstack Dev</span><span class="tag b">AI native</span></div>
       </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <!-- Lo dejo en el codigo porque voy implementarlo en un futuro
-      <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                </svg>
-                <i class="bx bxl-dribbble"></i>
-              </div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-orange ">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                </svg>
-                <i class="bx bx-file"></i>
-              </div>
-              <h4><a href="">Sed Perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-pink">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                </svg>
-                <i class="bx bx-tachometer"></i>
-              </div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                </svg>
-                <i class="bx bx-layer"></i>
-              </div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-red">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                </svg>
-                <i class="bx bx-slideshow"></i>
-              </div>
-              <h4><a href="">Dele Cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-teal">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <i class="bx bx-arch"></i>
-              </div>
-              <h4><a href="">Divera Don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-            </div>
-          </div>
-
-        </div>
-
+      <div class="card">
+        <div class="card-ico"><svg><use href="#ico-cpu"/></svg></div>
+        <div class="card-h">Tecnología disruptiva</div>
+        <div class="card-sub">Usuario real, no observador</div>
+        <p class="card-p">Inteligencia Artificial, Realidad Aumentada, Realidad Virtual, Blockchain. No como tendencias — como herramientas integradas en productos que operan hoy.</p>
+        <div class="tags"><span class="tag">Inteligencia Artificial</span><span class="tag">AR / VR</span><span class="tag">Blockchain</span></div>
       </div>
-    </section>--> <!-- End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <!-- Lo dejo en el codigo porque voy a implementarlo en algun futuro
-      <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-            <!-- End testimonial item --
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item --
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item --
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item --
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item --
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-  
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row mt-1">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>USA, Delawere</p>
-                <p>Lima, Peru</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>bambaja@icloud.com</p>
-                <p>jbambaren@realitynear.org</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Whatsapp:</h4>
-                <p>(+51) 993 513 194</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!--<div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Javier Bambaren D.</h3>
-      <p>Living does not consist in breathing but in acting. (Mao)</p>
-      <div class="social-links">
-        <a href="https://github.com/JBD84" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/?locale=en_US" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://twitter.com/JavierBambarenD" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/javier.bambaren" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/jbambaren/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        
-      </div>
-      <div class="copyright">
-        &copy; Copyright 2025 <strong><span>MyResume</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="card">
+        <div class="card-ico"><svg><use href="#ico-rocket"/></svg></div>
+        <div class="card-h">Emprendedor desde siempre</div>
+        <div class="card-sub">Independiente toda la vida</div>
+        <p class="card-p">Nunca trabajé para nadie. Construí mis propias operaciones, asumí el riesgo y aprendí cada capa del negocio desde adentro — sin red de seguridad.</p>
+        <div class="tags"><span class="tag">Fundador</span><span class="tag">Operador</span><span class="tag">Builder</span></div>
       </div>
     </div>
-  </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div class="mit-bar">
+      <div class="mit-logo">MI<span>T</span></div>
+      <p class="mit-p"><b>Massachusetts Institute of Technology</b> — Fullstack Developer · Chief Digital Officer · Ciberseguridad y más. Formación presencial en Cambridge + MITxPro + MIT Professional Education.</p>
+    </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <div class="photos-row">
+      <div class="photo-wrap">
+        <img src="assets/mit_cambridge.jpg" alt="Javier Bambarén en MIT Cambridge con diploma" />
+        <div class="photo-cap"><strong>Massachusetts Institute of Technology</strong><span>Cambridge, MA — Graduación presencial</span></div>
+      </div>
+      <div class="photo-wrap">
+        <img src="assets/world_championship.jpg" alt="World Championship Luta Livre 2022 con la bandera del Perú" />
+        <div class="photo-cap"><strong>World Championship — Luta Livre 2022</strong><span>Brasil · Subcampeón Mundial 🇵🇪</span></div>
+      </div>
+    </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <div class="divider"></div>
+
+    <div class="eyebrow">Alto rendimiento</div>
+    <h2>Competir me enseñó la fórmula<br>del <span>éxito</span> para la vida.</h2>
+
+    <div class="sport-block">
+      <div class="sport-eyebrow">Fórmula del éxito</div>
+      <div class="formula">Disciplina <span class="op">+</span> Constancia <span class="op">+</span> Talento <span class="op">+</span> 1% de suerte <span class="op">=</span> <span class="result">Éxito</span></div>
+      <div class="medals">
+        <div class="medal-row"><span class="medal-ico">🥈</span><div><div class="medal-title">Subcampeón Mundial — Luta Livre Esportiva</div><div class="medal-detail">World Championship · Brasil 2022</div></div></div>
+        <div class="medal-row"><span class="medal-ico">🏆</span><div><div class="medal-title">Campeón Nacional — Muay Thai</div><div class="medal-detail">Perú · 2002 · 2003 · 2004 · 2005</div></div></div>
+        <div class="medal-row"><span class="medal-ico">♟</span><div><div class="medal-title">Campeón Interescolar — Ajedrez</div><div class="medal-detail">Perú · varios años consecutivos</div></div></div>
+      </div>
+    </div>
+
+    <div class="sport-more">
+      <div class="sport-more-label">También practica</div>
+      <div class="sport-pills">
+        <span class="sp">Boxeo</span><span class="sp">Jiu-Jitsu</span><span class="sp">Lucha Libre</span><span class="sp">Kung Fu</span><span class="sp">Karate</span><span class="sp">Taekwondo</span><span class="sp">Surf</span><span class="sp">Tenis</span><span class="sp">Golf</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="eyebrow">El lado humano</div>
+    <h2>Emprender con propósito<br>y con pilares <span>sólidos.</span></h2>
+
+    <div class="human-grid">
+      <div class="hcard blue-tint">
+        <div class="hc-big">Casado.<br>Padre de 3.<br>Con 1 perro.</div>
+        <div class="hc-sub">Que me dan la energía necesaria para construir sin rendirme.</div>
+      </div>
+      <div class="hcard">
+        <div class="hc-list">
+          <div class="hc-item"><svg><use href="#ico-heart"/></svg>Familia es el motor, no el freno</div>
+          <div class="hc-item"><svg><use href="#ico-run"/></svg>El deporte es mi desestres</div>
+          <div class="hc-item"><svg><use href="#ico-brain"/></svg>Salud: mente, cuerpo y alma</div>
+          <div class="hc-item"><svg><use href="#ico-pin"/></svg>Lima, Perú · operando globalmente</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="build-block">
+      <div class="build-ey">Construyendo ahora mismo</div>
+      <div class="build-h">EventOS — AI-Native<br>Events Operating System</div>
+      <p class="build-p">La fusión de 20+ años operando eventos con ingeniería AI-native. Automatización end-to-end para productoras de eventos a nivel global — inventarios, expedientes, agentes autónomos y más. Imposible de replicar sin haber vivido el problema desde adentro.</p>
+      <div class="build-pills">
+        <span class="build-pill">Multi-tenant SaaS</span><span class="build-pill">AI-native</span><span class="build-pill">Agentes autónomos</span><span class="build-pill">Ops en tiempo real</span><span class="build-pill">Supabase · React · Vercel</span>
+      </div>
+      <div class="build-btns">
+        <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="btn-white">Ver el producto →</a>
+        <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" class="btn-outline-w">Conectar →</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-name">Javier Bambarén Dabdoub</div>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank"><svg><use href="#ico-linkedin"/></svg>LinkedIn</a>
+        <a href="https://www.instagram.com/javier.bambaren/" target="_blank"><svg><use href="#ico-instagram"/></svg>Instagram</a>
+        <a href="https://www.youtube.com/@javierbambarendabdoub" target="_blank"><svg><use href="#ico-youtube"/></svg>YouTube</a>
+        <a href="https://github.com/JBD84" target="_blank"><svg><use href="#ico-github"/></svg>GitHub</a>
+      </div>
+      <div class="footer-tagline">Buscando lo imposible. Ejecutando lo inevitable.</div>
+      <div class="footer-copy"><svg style="width:12px;height:12px;stroke:#bbb;fill:none;stroke-width:1.8"><use href="#ico-copyright"/></svg> Derechos reservados JBD 2026</div>
+    </div>
+  </footer>
 
 </body>
-
 </html>
