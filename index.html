@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Javier Bambarén Dabdoub — Founder · Builder · Lima, Perú</title>
-  <meta name="description" content="+20 años produciendo eventos. Ahora transformo la industria con código e Inteligencia Artificial. Fundador de EventOS — AI-Native Events Operating System." />
+  <title>Javier Bambarén Dabdoub — Founder · Builder · Lima, Peru</title>
+  <meta name="description" content="20+ years running events. Now I'm rebuilding the entire industry with code and Artificial Intelligence. Founder of EventOS — AI-Native Events Operating System." />
   <meta name="author" content="Javier Bambarén Dabdoub" />
-  <meta name="keywords" content="Javier Bambarén, EventOS, eventos Lima, AI native, founder Peru, MIT, producción de eventos, Inteligencia Artificial eventos" />
+  <meta name="keywords" content="Javier Bambarén, EventOS, events Lima, AI native, founder Peru, MIT, event production, Artificial Intelligence events" />
   <link rel="canonical" href="https://jbd84.github.io/" />
 
   <meta property="og:type" content="profile" />
   <meta property="og:title" content="Javier Bambarén Dabdoub — Founder & Builder" />
-  <meta property="og:description" content="+20 años produciendo eventos. Ahora transformo la industria completa con código e Inteligencia Artificial. Fundador de EventOS." />
+  <meta property="og:description" content="20+ years running events. Now rebuilding the entire industry with code and AI. Founder of EventOS." />
   <meta property="og:url" content="https://jbd84.github.io/" />
   <meta property="og:image" content="https://jbd84.github.io/assets/foto_javier_bambaren_2.jpg" />
-  <meta property="og:locale" content="es_PE" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="Javier Bambarén Dabdoub" />
-  <meta property="profile:first_name" content="Javier" />
-  <meta property="profile:last_name" content="Bambarén Dabdoub" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Javier Bambarén Dabdoub — Founder & Builder" />
-  <meta name="twitter:description" content="+20 años produciendo eventos. Ahora transformo la industria con código e Inteligencia Artificial." />
+  <meta name="twitter:description" content="20+ years running events. Now rebuilding the entire industry with code and AI." />
   <meta name="twitter:image" content="https://jbd84.github.io/assets/foto_javier_bambaren_2.jpg" />
   <meta name="twitter:creator" content="@JavierBambarenD" />
 
@@ -35,9 +33,9 @@
       "url": "https://jbd84.github.io/",
       "image": "https://jbd84.github.io/assets/foto_javier_bambaren_2.jpg",
       "jobTitle": "Founder & CEO",
-      "description": "Emprendedor con +20 años en producción de eventos, programador, formado en MIT, subcampeón mundial de Luta Livre 2022. Fundador de EventOS.",
+      "description": "Entrepreneur with 20+ years in event production, software developer, MIT-trained, World Luta Livre runner-up 2022. Founder of EventOS — the first AI-native operating system for the events industry.",
       "alumniOf": { "@type": "CollegeOrUniversity", "name": "Massachusetts Institute of Technology", "alternateName": "MIT", "url": "https://www.mit.edu" },
-      "knowsAbout": ["Producción de eventos","Inteligencia Artificial","Desarrollo de software","Realidad Virtual","Blockchain","Emprendimiento","Artes marciales"],
+      "knowsAbout": ["Event Production","Artificial Intelligence","Software Development","Virtual Reality","Blockchain","Entrepreneurship","Martial Arts"],
       "sameAs": ["https://www.linkedin.com/in/javier-bambaren-dabdoub/","https://www.instagram.com/javier.bambaren/","https://www.youtube.com/@javierbambarendabdoub","https://github.com/JBD84"],
       "founder": { "@type": "Organization", "name": "EventOS", "url": "https://events-operating-system.github.io/events-landing/" }
     },
@@ -47,7 +45,7 @@
       "name": "EventOS",
       "alternateName": "AI-Native Events Operating System",
       "url": "https://events-operating-system.github.io/events-landing/",
-      "description": "El primer sistema operativo AI-native para la industria de producción de eventos.",
+      "description": "The first AI-native operating system for the event production industry.",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
       "author": { "@type": "Person", "name": "Javier Bambarén Dabdoub" }
@@ -76,16 +74,15 @@
     .nav-brand em { color: var(--blue); font-style: normal; }
     .nav-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
     .nav-socials { display: flex; gap: 6px; }
-    .nav-socials a {
-      display: flex; align-items: center; justify-content: center;
-      width: 34px; height: 34px;
-      border: 1px solid #e8e8e8; border-radius: 8px;
-      color: #666; text-decoration: none; transition: all .2s;
-    }
+    .nav-socials a { display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border: 1px solid #e8e8e8; border-radius: 8px; color: #666; text-decoration: none; transition: all .2s; }
     .nav-socials a svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
     .nav-socials a:hover { color: var(--blue); border-color: #b8cbff; background: #f0f4ff; }
     .nav-cta { background: var(--blue); color: #fff; font-weight: 700; font-size: 12px; border-radius: 9px; padding: 9px 16px; text-decoration: none; white-space: nowrap; transition: background .2s; }
     .nav-cta:hover { background: var(--blue-dark); }
+    .lang-toggle { display: flex; gap: 0; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+    .lang-btn { background: transparent; border: none; padding: 7px 12px; font-size: 11px; font-weight: 700; cursor: pointer; color: #999; transition: all .2s; font-family: 'Inter', sans-serif; }
+    .lang-btn.active { background: var(--blue); color: #fff; }
+    .lang-btn:hover:not(.active) { background: #f0f0f0; color: var(--text); }
 
     /* HERO */
     .hero { padding: 48px 0 32px; display: grid; grid-template-columns: 1fr 200px; gap: 32px; align-items: start; }
@@ -94,7 +91,7 @@
     @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
     h1 { font-size: clamp(24px, 4vw, 34px); font-weight: 900; letter-spacing: -0.04em; line-height: 1.05; margin-bottom: 16px; }
     h1 .blue { color: var(--blue); }
-    .hero-desc { font-size: clamp(13px, 2vw, 14px); color: var(--muted); max-width: 460px; line-height: 1.8; margin-bottom: 22px; }
+    .hero-desc { font-size: clamp(14px, 2vw, 16px); color: var(--muted); max-width: 460px; line-height: 1.8; margin-bottom: 22px; }
     .hero-desc b { color: var(--text); font-weight: 700; }
     .btns { display: flex; gap: 10px; flex-wrap: wrap; }
     .btn-primary { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 12px 22px; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-block; transition: background .2s; }
@@ -109,7 +106,7 @@
 
     /* GALLERY */
     .gallery-section { margin-bottom: 28px; }
-    .gallery-label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #aaa; margin-bottom: 10px; }
+    .gallery-label { font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #aaa; margin-bottom: 10px; }
     .gallery-strip { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
     .gallery-item { border-radius: 12px; overflow: hidden; aspect-ratio: 4/3; }
     .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s; }
@@ -119,16 +116,16 @@
     .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #e8e8e8; border: 1px solid #e8e8e8; border-radius: 14px; overflow: hidden; margin-bottom: 28px; }
     .stat { background: #fff; padding: 18px 14px; }
     .stat-val { font-size: clamp(20px, 3vw, 26px); font-weight: 900; letter-spacing: -0.05em; color: var(--blue); line-height: 1; }
-    .stat-label { font-size: 10px; font-weight: 500; color: #aaa; margin-top: 6px; line-height: 1.4; }
+    .stat-label { font-size: 12px; font-weight: 500; color: #aaa; margin-top: 6px; line-height: 1.4; }
 
     /* BLUE BLOCKS */
     .blue-block { background: var(--blue-dark); border-radius: 18px; padding: 32px; margin-bottom: 28px; position: relative; overflow: hidden; }
     .blue-block::after { content: ''; position: absolute; bottom: -50px; right: -50px; width: 160px; height: 160px; background: rgba(255,255,255,.06); border-radius: 50%; }
     .blue-block .quote { font-size: clamp(15px, 2.5vw, 20px); font-weight: 900; color: #fff; letter-spacing: -0.03em; line-height: 1.3; max-width: 520px; position: relative; z-index: 2; margin-bottom: 10px; }
-    .blue-block .attr { font-size: 11px; color: rgba(255,255,255,.45); position: relative; z-index: 2; }
+    .blue-block .attr { font-size: 13px; color: rgba(255,255,255,.45); position: relative; z-index: 2; }
 
     /* SECTIONS */
-    .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
+    .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
     h2 { font-size: clamp(20px, 3.5vw, 26px); font-weight: 900; letter-spacing: -0.04em; line-height: 1.05; margin-bottom: 20px; }
     h2 span { color: var(--blue); }
 
@@ -138,18 +135,18 @@
     .card.accent { background: #f0f4ff; border-color: #d8e4ff; }
     .card-ico { width: 34px; height: 34px; border-radius: 9px; display: flex; align-items: center; justify-content: center; background: #fff; border: 1px solid #e0e0e0; margin-bottom: 12px; }
     .card-ico svg { width: 18px; height: 18px; fill: none; stroke: var(--blue); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-    .card-h { font-size: 13px; font-weight: 800; margin-bottom: 3px; }
-    .card-sub { font-size: 10px; font-weight: 600; color: var(--blue); margin-bottom: 8px; }
-    .card-p { font-size: 11.5px; color: var(--muted); line-height: 1.65; }
+    .card-h { font-size: 15px; font-weight: 800; margin-bottom: 3px; }
+    .card-sub { font-size: 12px; font-weight: 600; color: var(--blue); margin-bottom: 8px; }
+    .card-p { font-size: 13.5px; color: var(--muted); line-height: 1.7; }
     .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
-    .tag { font-size: 9px; font-weight: 600; color: #555; background: #fff; border: 1px solid #e8e8e8; border-radius: 5px; padding: 3px 7px; }
+    .tag { font-size: 11px; font-weight: 600; color: #555; background: #fff; border: 1px solid #e8e8e8; border-radius: 5px; padding: 4px 8px; }
     .tag.b { background: #e6eeff; border-color: #b8cbff; color: #0039b3; }
 
     /* MIT BAR */
     .mit-bar { display: flex; align-items: center; gap: 16px; border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 28px; background: var(--bg2); }
     .mit-logo { font-size: 22px; font-weight: 900; letter-spacing: -0.05em; flex-shrink: 0; }
     .mit-logo span { color: #a00; }
-    .mit-p { font-size: 11.5px; color: var(--muted); line-height: 1.55; }
+    .mit-p { font-size: 13px; color: var(--muted); line-height: 1.55; }
     .mit-p b { color: var(--text); font-weight: 700; }
 
     /* PHOTOS ROW */
@@ -157,45 +154,45 @@
     .photo-wrap { border-radius: 14px; overflow: hidden; position: relative; }
     .photo-wrap img { width: 100%; height: 200px; object-fit: cover; object-position: center; display: block; }
     .photo-cap { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,.6); padding: 10px 14px; }
-    .photo-cap strong { font-size: 11px; font-weight: 700; color: #fff; display: block; }
-    .photo-cap span { font-size: 10px; color: rgba(255,255,255,.6); }
+    .photo-cap strong { font-size: 13px; font-weight: 700; color: #fff; display: block; }
+    .photo-cap span { font-size: 12px; color: rgba(255,255,255,.6); }
     .divider { height: 1px; background: #f0f0f0; margin: 28px 0; }
 
     /* SPORT */
     .sport-block { background: var(--blue-dark); border-radius: 18px; padding: 28px; margin-bottom: 12px; position: relative; overflow: hidden; }
     .sport-block::after { content: ''; position: absolute; top: -40px; right: -40px; width: 140px; height: 140px; background: rgba(255,255,255,.05); border-radius: 50%; }
-    .sport-eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 14px; }
-    .formula { font-size: clamp(12px, 2vw, 15px); font-weight: 900; color: #fff; line-height: 1.7; position: relative; z-index: 2; }
+    .sport-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 14px; }
+    .formula { font-size: clamp(14px, 2vw, 17px); font-weight: 900; color: #fff; line-height: 1.7; position: relative; z-index: 2; }
     .formula .op { color: rgba(255,255,255,.3); margin: 0 5px; }
     .formula .result { color: #7eb8ff; }
     .medals { display: flex; flex-direction: column; gap: 12px; margin-top: 22px; position: relative; z-index: 2; }
     .medal-row { display: flex; align-items: flex-start; gap: 12px; }
     .medal-ico { font-size: 20px; flex-shrink: 0; line-height: 1.2; }
-    .medal-title { font-size: 13px; font-weight: 800; color: #fff; line-height: 1.3; }
-    .medal-detail { font-size: 10px; color: rgba(255,255,255,.4); margin-top: 3px; }
+    .medal-title { font-size: 15px; font-weight: 800; color: #fff; line-height: 1.3; }
+    .medal-detail { font-size: 12px; color: rgba(255,255,255,.4); margin-top: 3px; }
     .sport-more { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 28px; }
-    .sport-more-label { font-size: 10px; font-weight: 700; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
+    .sport-more-label { font-size: 12px; font-weight: 700; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
     .sport-pills { display: flex; flex-wrap: wrap; gap: 6px; }
-    .sp { font-size: 10px; font-weight: 600; background: #fff; border: 1px solid #e0e0e0; border-radius: 100px; padding: 4px 12px; color: #555; }
+    .sp { font-size: 12px; font-weight: 600; background: #fff; border: 1px solid #e0e0e0; border-radius: 100px; padding: 4px 12px; color: #555; }
 
     /* HUMAN */
     .human-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 28px; }
     .hcard { border-radius: 14px; padding: 22px; background: var(--bg2); border: 1px solid var(--border); }
     .hcard.blue-tint { background: #f0f4ff; border-color: #d0deff; }
     .hc-big { font-size: clamp(18px, 3vw, 22px); font-weight: 900; letter-spacing: -0.04em; line-height: 1.1; color: #0039b3; margin-bottom: 8px; }
-    .hc-sub { font-size: 11.5px; color: #5070c0; line-height: 1.6; }
+    .hc-sub { font-size: 13px; color: #5070c0; line-height: 1.6; }
     .hc-list { display: flex; flex-direction: column; gap: 12px; }
-    .hc-item { display: flex; align-items: center; gap: 10px; font-size: 12px; font-weight: 600; color: #444; }
+    .hc-item { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: #444; }
     .hc-item svg { width: 16px; height: 16px; fill: none; stroke: var(--blue); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
 
     /* BUILD */
     .build-block { background: var(--blue-dark); border-radius: 18px; padding: 36px; margin-bottom: 36px; position: relative; overflow: hidden; }
     .build-block::before { content: ''; position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,.05); border-radius: 50%; }
-    .build-ey { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 12px; }
+    .build-ey { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 12px; }
     .build-h { font-size: clamp(18px, 3vw, 24px); font-weight: 900; color: #fff; letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 10px; position: relative; z-index: 2; }
     .build-p { font-size: 13px; color: rgba(255,255,255,.6); line-height: 1.75; margin-bottom: 18px; max-width: 480px; position: relative; z-index: 2; }
     .build-pills { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 22px; position: relative; z-index: 2; }
-    .build-pill { font-size: 10px; font-weight: 600; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: 100px; padding: 5px 12px; color: rgba(255,255,255,.85); }
+    .build-pill { font-size: 12px; font-weight: 600; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: 100px; padding: 5px 12px; color: rgba(255,255,255,.85); }
     .build-btns { display: flex; gap: 10px; flex-wrap: wrap; position: relative; z-index: 2; }
     .btn-white { background: #fff; color: var(--blue-dark); border-radius: 9px; padding: 12px 22px; font-size: 13px; font-weight: 800; text-decoration: none; display: inline-block; transition: opacity .2s; }
     .btn-white:hover { opacity: .9; }
@@ -207,13 +204,13 @@
     .footer-inner { display: flex; flex-direction: column; align-items: center; gap: 16px; }
     .footer-name { font-size: 16px; font-weight: 900; letter-spacing: -0.03em; }
     .footer-socials { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-    .footer-socials a { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; color: #555; text-decoration: none; border: 1px solid #e8e8e8; border-radius: 9px; padding: 9px 16px; transition: all .2s; }
+    .footer-socials a { display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: #555; text-decoration: none; border: 1px solid #e8e8e8; border-radius: 8px; padding: 8px 14px; transition: all .2s; }
     .footer-socials a svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
     .footer-socials a:hover { color: var(--blue); border-color: #b8cbff; background: #f0f4ff; }
-    .footer-tagline { font-size: 13px; font-weight: 700; }
-    .footer-copy { display: flex; align-items: center; gap: 5px; font-size: 10px; color: #bbb; }
+    .footer-tagline { font-size: 14px; font-weight: 700; }
+    .footer-copy { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #bbb; }
 
-    /* RESPONSIVE — TABLET */
+    /* RESPONSIVE */
     @media (max-width: 768px) {
       .container { padding: 0 18px; }
       .nav-brand { font-size: 13px; }
@@ -227,16 +224,12 @@
       .photos-row { grid-template-columns: 1fr; }
       .human-grid { grid-template-columns: 1fr; }
       .build-btns { flex-direction: column; }
-      .btn-white, .btn-outline-w { text-align: center; }
     }
-
-    /* RESPONSIVE — MOBILE */
     @media (max-width: 480px) {
       .container { padding: 0 14px; }
       .nav-socials { display: none; }
       .nav-brand { font-size: 12px; max-width: 180px; white-space: normal; line-height: 1.3; }
-      .hero { padding: 28px 0 20px; gap: 20px; }
-      .hero-photo { width: 110px; height: 122px; }
+      .lang-toggle { display: none; }
       h1 { font-size: 22px; }
       h2 { font-size: 19px; }
       .gallery-strip { grid-template-columns: repeat(2, 1fr); gap: 6px; }
@@ -248,14 +241,12 @@
       .sport-block { padding: 22px; border-radius: 14px; }
       .build-block { padding: 22px; border-radius: 14px; }
       .photos-row .photo-wrap img { height: 160px; }
-      .footer-socials { gap: 8px; }
-      .footer-socials a { font-size: 11px; padding: 8px 12px; }
+      .footer-socials a { font-size: 10px; padding: 7px 10px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- SVG icon defs reutilizables -->
   <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
     <symbol id="ico-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
     <symbol id="ico-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
@@ -276,21 +267,17 @@
     <div class="container nav-inner">
       <a href="#" class="nav-brand">Javier Bambarén Dabdoub<em>.</em></a>
       <div class="nav-right">
-        <div class="nav-socials">
-          <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" aria-label="LinkedIn">
-            <svg><use href="#ico-linkedin"/></svg>
-          </a>
-          <a href="https://www.instagram.com/javier.bambaren/" target="_blank" aria-label="Instagram">
-            <svg><use href="#ico-instagram"/></svg>
-          </a>
-          <a href="https://www.youtube.com/@javierbambarendabdoub" target="_blank" aria-label="YouTube">
-            <svg><use href="#ico-youtube"/></svg>
-          </a>
-          <a href="https://github.com/JBD84" target="_blank" aria-label="GitHub">
-            <svg><use href="#ico-github"/></svg>
-          </a>
+        <div class="lang-toggle">
+          <button class="lang-btn active" onclick="setLang('en')" id="btn-en">EN</button>
+          <button class="lang-btn" onclick="setLang('es')" id="btn-es">ES</button>
         </div>
-        <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="nav-cta">Ver EventOS →</a>
+        <div class="nav-socials">
+          <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" aria-label="LinkedIn"><svg><use href="#ico-linkedin"/></svg></a>
+          <a href="https://www.instagram.com/javier.bambaren/" target="_blank" aria-label="Instagram"><svg><use href="#ico-instagram"/></svg></a>
+          <a href="https://www.youtube.com/@javierbambarendabdoub" target="_blank" aria-label="YouTube"><svg><use href="#ico-youtube"/></svg></a>
+          <a href="https://github.com/JBD84" target="_blank" aria-label="GitHub"><svg><use href="#ico-github"/></svg></a>
+        </div>
+        <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="nav-cta" data-en="See EventOS →" data-es="Ver EventOS →">See EventOS →</a>
       </div>
     </div>
   </nav>
@@ -299,12 +286,12 @@
 
     <section class="hero">
       <div>
-        <div class="hero-tag"><span class="dot"></span>Lima, Perú · Founder · Builder</div>
-        <h1>+20 años produciendo eventos. Ahora transformo la industria con código e <span class="blue">Inteligencia Artificial.</span></h1>
-        <p class="hero-desc">Operé eventos. Monté una discoteca. Peleé en campeonatos mundiales. Estudié en el <b>MIT (Massachusetts Institute of Technology)</b>. Y hoy construyo el primer sistema operativo AI-native para la industria de eventos — porque nadie más tiene esta combinación exacta.</p>
+        <div class="hero-tag"><span class="dot"></span><span data-en="Lima, Peru · Founder · Builder" data-es="Lima, Perú · Founder · Builder">Lima, Peru · Founder · Builder</span></div>
+        <h1 data-en="20+ years running events. Now I'm rebuilding the entire industry with code and <span class='blue'>Artificial Intelligence.</span>" data-es="+20 años produciendo eventos. Ahora transformo la industria con código e <span class='blue'>Inteligencia Artificial.</span>">20+ years running events. Now I'm rebuilding the entire industry with code and <span class="blue">Artificial Intelligence.</span></h1>
+        <p class="hero-desc" data-en="I ran events. Built a nightclub. Competed in world championships. Trained at <b>MIT (Massachusetts Institute of Technology)</b>. And now I'm building the first AI-native operating system for the events industry — because nobody else has this exact combination." data-es="Operé eventos. Monté una discoteca. Peleé en campeonatos mundiales. Estudié en el <b>MIT (Massachusetts Institute of Technology)</b>. Y hoy construyo el primer sistema operativo AI-native para la industria de eventos — porque nadie más tiene esta combinación exacta.">I ran events. Built a nightclub. Competed in world championships. Trained at <b>MIT (Massachusetts Institute of Technology)</b>. And now I'm building the first AI-native operating system for the events industry — because nobody else has this exact combination.</p>
         <div class="btns">
-          <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="btn-primary">Ver EventOS →</a>
-          <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" class="btn-ghost">Conectar</a>
+          <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="btn-primary" data-en="See EventOS →" data-es="Ver EventOS →">See EventOS →</a>
+          <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" class="btn-ghost" data-en="Connect" data-es="Conectar">Connect</a>
         </div>
       </div>
       <div>
@@ -314,130 +301,142 @@
     </section>
 
     <section class="gallery-section">
-      <div class="gallery-label">20+ años de producción de eventos</div>
+      <div class="gallery-label" data-en="20+ years of event production" data-es="20+ años de producción de eventos">20+ years of event production</div>
       <div class="gallery-strip">
-        <div class="gallery-item"><img src="assets/evento-1.jpg" alt="Evento JBD Producciones" /></div>
-        <div class="gallery-item"><img src="assets/evento-2.jpg" alt="Evento JBD Producciones" /></div>
-        <div class="gallery-item"><img src="assets/evento-3.jpg" alt="Evento JBD Producciones" /></div>
-        <div class="gallery-item"><img src="assets/evento-4.jpg" alt="Evento JBD Producciones" /></div>
-        <div class="gallery-item"><img src="assets/evento-5.jpg" alt="Evento JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-1.jpg" alt="Event by JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-2.jpg" alt="Event by JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-3.jpg" alt="Event by JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-4.jpg" alt="Event by JBD Producciones" /></div>
+        <div class="gallery-item"><img src="assets/evento-5.jpg" alt="Event by JBD Producciones" /></div>
       </div>
     </section>
 
     <div class="stats">
-      <div class="stat"><div class="stat-val">20+</div><div class="stat-label">Experiencia<br>operando eventos</div></div>
-      <div class="stat"><div class="stat-val">#2</div><div class="stat-label">Logros deportivos<br>Mundial · Brasil 2022</div></div>
-      <div class="stat"><div class="stat-val">MIT</div><div class="stat-label">Estudios<br>4 programas</div></div>
-      <div class="stat"><div class="stat-val">0→1</div><div class="stat-label">Situación actual<br>construyendo EventOS</div></div>
+      <div class="stat">
+        <div class="stat-val">20+</div>
+        <div class="stat-label" data-en="Years running events" data-es="Años operando eventos">Years running events</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">#2</div>
+        <div class="stat-label" data-en="Sports achievement<br>World Championship · Brazil 2022" data-es="Logro deportivo<br>Mundial · Brasil 2022">Sports achievement<br>World Championship · Brazil 2022</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">MIT</div>
+        <div class="stat-label" data-en="Education<br>4 programs" data-es="Estudios<br>4 programas">Education<br>4 programs</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">0→1</div>
+        <div class="stat-label" data-en="Current focus<br>building EventOS" data-es="Situación actual<br>construyendo EventOS">Current focus<br>building EventOS</div>
+      </div>
     </div>
 
     <div class="blue-block">
-      <p class="quote">"En un mundo donde todo es programable, tu imaginación es el único límite."</p>
-      <p class="attr">Una frase que nació en pandemia y hoy guía cada decisión de negocio.</p>
+      <p class="quote" data-en='"In a world where everything is programmable, your imagination is the only limit."' data-es='"En un mundo donde todo es programable, tu imaginación es el único límite."'>"In a world where everything is programmable, your imagination is the only limit."</p>
+      <p class="attr" data-en="A phrase born during the pandemic that now drives every business decision." data-es="Una frase que nació en pandemia y hoy guía cada decisión de negocio.">A phrase born during the pandemic that now drives every business decision.</p>
     </div>
 
-    <div class="eyebrow">Founder-market fit</div>
-    <h2>Hay founders. Y hay founders<br>que ya <span>vivieron</span> el problema.</h2>
+    <div class="eyebrow" data-en="Founder-market fit" data-es="Founder-market fit">Founder-market fit</div>
+    <h2 data-en="There are founders. And there are founders who <span>lived</span> the problem." data-es="Hay founders. Y hay founders que ya <span>vivieron</span> el problema.">There are founders. And there are founders who <span>lived</span> the problem.</h2>
 
     <div class="grid2">
       <div class="card">
         <div class="card-ico"><svg><use href="#ico-confetti"/></svg></div>
-        <div class="card-h">20 años en el juego real</div>
-        <div class="card-sub">Operador · no consultor</div>
-        <p class="card-p">Discoteca propia, bar, local de eventos, producción masiva. Dos décadas con capital propio en riesgo. Conozco cada dolor operativo porque lo pagué de mi bolsillo.</p>
-        <div class="tags"><span class="tag">Producción de eventos</span><span class="tag">Nightlife ops</span><span class="tag">Capital propio</span></div>
+        <div class="card-h" data-en="20 years in the arena" data-es="20 años en el juego real">20 years in the arena</div>
+        <div class="card-sub" data-en="Operator · not a consultant" data-es="Operador · no consultor">Operator · not a consultant</div>
+        <p class="card-p" data-en="My own nightclub, bar, event venue, and large-scale event production. Two decades with real capital at stake. I know every operational pain point because I paid for them myself." data-es="Discoteca propia, bar, local de eventos, producción masiva. Dos décadas con capital propio en riesgo. Conozco cada dolor operativo porque lo pagué de mi bolsillo.">My own nightclub, bar, event venue, and large-scale event production. Two decades with real capital at stake. I know every operational pain point because I paid for them myself.</p>
+        <div class="tags"><span class="tag" data-en="Event Production" data-es="Producción de eventos">Event Production</span><span class="tag" data-en="Nightlife ops" data-es="Nightlife ops">Nightlife ops</span><span class="tag" data-en="Own capital" data-es="Capital propio">Own capital</span></div>
       </div>
       <div class="card accent">
         <div class="card-ico"><svg><use href="#ico-code"/></svg></div>
-        <div class="card-h">Ingeniero que ejecuta</div>
-        <div class="card-sub">No delega. Construye.</div>
-        <p class="card-p">Aprendí a programar, construí un metaverso en pandemia. MIT — Fullstack Developer, Chief Digital Officer y Ciberseguridad. Presencial en Cambridge y virtual en MITxPro.</p>
+        <div class="card-h" data-en="An engineer who ships" data-es="Ingeniero que ejecuta">An engineer who ships</div>
+        <div class="card-sub" data-en="Doesn't delegate. Builds." data-es="No delega. Construye.">Doesn't delegate. Builds.</div>
+        <p class="card-p" data-en="Taught myself to code, built a metaverse during the pandemic. MIT — Fullstack Developer, Chief Digital Officer, and Cybersecurity. On-campus in Cambridge and online via MITxPro." data-es="Aprendí a programar, construí un metaverso en pandemia. MIT — Fullstack Developer, Chief Digital Officer y Ciberseguridad. Presencial en Cambridge y virtual en MITxPro.">Taught myself to code, built a metaverse during the pandemic. MIT — Fullstack Developer, Chief Digital Officer, and Cybersecurity. On-campus in Cambridge and online via MITxPro.</p>
         <div class="tags"><span class="tag b">MIT Professional</span><span class="tag b">Fullstack Dev</span><span class="tag b">AI native</span></div>
       </div>
       <div class="card">
         <div class="card-ico"><svg><use href="#ico-cpu"/></svg></div>
-        <div class="card-h">Tecnología disruptiva</div>
-        <div class="card-sub">Usuario real, no observador</div>
-        <p class="card-p">Inteligencia Artificial, Realidad Aumentada, Realidad Virtual, Blockchain. No como tendencias — como herramientas integradas en productos que operan hoy.</p>
-        <div class="tags"><span class="tag">Inteligencia Artificial</span><span class="tag">AR / VR</span><span class="tag">Blockchain</span></div>
+        <div class="card-h" data-en="Disruptive technology" data-es="Tecnología disruptiva">Disruptive technology</div>
+        <div class="card-sub" data-en="Real user, not a spectator" data-es="Usuario real, no observador">Real user, not a spectator</div>
+        <p class="card-p" data-en="Artificial Intelligence, Augmented Reality, Virtual Reality, Blockchain. Not as buzzwords — as real tools already embedded in products running today." data-es="Inteligencia Artificial, Realidad Aumentada, Realidad Virtual, Blockchain. No como tendencias — como herramientas integradas en productos que operan hoy.">Artificial Intelligence, Augmented Reality, Virtual Reality, Blockchain. Not as buzzwords — as real tools already embedded in products running today.</p>
+        <div class="tags"><span class="tag" data-en="Artificial Intelligence" data-es="Inteligencia Artificial">Artificial Intelligence</span><span class="tag">AR / VR</span><span class="tag">Blockchain</span></div>
       </div>
       <div class="card">
         <div class="card-ico"><svg><use href="#ico-rocket"/></svg></div>
-        <div class="card-h">Emprendedor desde siempre</div>
-        <div class="card-sub">Independiente toda la vida</div>
-        <p class="card-p">Nunca trabajé para nadie. Construí mis propias operaciones, asumí el riesgo y aprendí cada capa del negocio desde adentro — sin red de seguridad.</p>
-        <div class="tags"><span class="tag">Fundador</span><span class="tag">Operador</span><span class="tag">Builder</span></div>
+        <div class="card-h" data-en="Entrepreneur from day one" data-es="Emprendedor desde siempre">Entrepreneur from day one</div>
+        <div class="card-sub" data-en="Independent my whole career" data-es="Independiente toda la vida">Independent my whole career</div>
+        <p class="card-p" data-en="Never worked for anyone. Built my own operations, took the risk, and learned every layer of the business from the inside — with no safety net." data-es="Nunca trabajé para nadie. Construí mis propias operaciones, asumí el riesgo y aprendí cada capa del negocio desde adentro — sin red de seguridad.">Never worked for anyone. Built my own operations, took the risk, and learned every layer of the business from the inside — with no safety net.</p>
+        <div class="tags"><span class="tag">Founder</span><span class="tag">Operator</span><span class="tag">Builder</span></div>
       </div>
     </div>
 
     <div class="mit-bar">
       <div class="mit-logo">MI<span>T</span></div>
-      <p class="mit-p"><b>Massachusetts Institute of Technology</b> — Fullstack Developer · Chief Digital Officer · Ciberseguridad y más. Formación presencial en Cambridge + MITxPro + MIT Professional Education.</p>
+      <p class="mit-p" data-en="<b>Massachusetts Institute of Technology</b> — Fullstack Developer · Chief Digital Officer · Cybersecurity and more. On-campus training in Cambridge + MITxPro + MIT Professional Education." data-es="<b>Massachusetts Institute of Technology</b> — Fullstack Developer · Chief Digital Officer · Ciberseguridad y más. Formación presencial en Cambridge + MITxPro + MIT Professional Education."><b>Massachusetts Institute of Technology</b> — Fullstack Developer · Chief Digital Officer · Cybersecurity and more. On-campus training in Cambridge + MITxPro + MIT Professional Education.</p>
     </div>
 
     <div class="photos-row">
       <div class="photo-wrap">
-        <img src="assets/mit_cambridge.jpg" alt="Javier Bambarén en MIT Cambridge con diploma" />
-        <div class="photo-cap"><strong>Massachusetts Institute of Technology</strong><span>Cambridge, MA — Graduación presencial</span></div>
+        <img src="assets/mit_cambridge.jpg" alt="Javier Bambarén at MIT Cambridge with diploma" />
+        <div class="photo-cap"><strong>Massachusetts Institute of Technology</strong><span data-en="Cambridge, MA — On-campus graduation" data-es="Cambridge, MA — Graduación presencial">Cambridge, MA — On-campus graduation</span></div>
       </div>
       <div class="photo-wrap">
-        <img src="assets/world_championship.jpg" alt="World Championship Luta Livre 2022 con la bandera del Perú" />
-        <div class="photo-cap"><strong>World Championship — Luta Livre 2022</strong><span>Brasil · Subcampeón Mundial 🇵🇪</span></div>
+        <img src="assets/world_championship.jpg" alt="World Championship Luta Livre 2022 with Peru flag" />
+        <div class="photo-cap"><strong>World Championship — Luta Livre 2022</strong><span data-en="Brazil · World Runner-Up 🇵🇪" data-es="Brasil · Subcampeón Mundial 🇵🇪">Brazil · World Runner-Up 🇵🇪</span></div>
       </div>
     </div>
 
     <div class="divider"></div>
 
-    <div class="eyebrow">Alto rendimiento</div>
-    <h2>Competir me enseñó la fórmula<br>del <span>éxito</span> para la vida.</h2>
+    <div class="eyebrow" data-en="High performance" data-es="Alto rendimiento">High performance</div>
+    <h2 data-en="Competition taught me the formula for <span>success</span> in life." data-es="Competir me enseñó la fórmula del <span>éxito</span> para la vida.">Competition taught me the formula for <span>success</span> in life.</h2>
 
     <div class="sport-block">
-      <div class="sport-eyebrow">Fórmula del éxito</div>
-      <div class="formula">Disciplina <span class="op">+</span> Constancia <span class="op">+</span> Talento <span class="op">+</span> 1% de suerte <span class="op">=</span> <span class="result">Éxito</span></div>
+      <div class="sport-eyebrow" data-en="Formula for success" data-es="Fórmula del éxito">Formula for success</div>
+      <div class="formula">Discipline <span class="op">+</span> Consistency <span class="op">+</span> Talent <span class="op">+</span> 1% luck <span class="op">=</span> <span class="result" data-en="Success" data-es="Éxito">Success</span></div>
       <div class="medals">
-        <div class="medal-row"><span class="medal-ico">🥈</span><div><div class="medal-title">Subcampeón Mundial — Luta Livre Esportiva</div><div class="medal-detail">World Championship · Brasil 2022</div></div></div>
-        <div class="medal-row"><span class="medal-ico">🏆</span><div><div class="medal-title">Campeón Nacional — Muay Thai</div><div class="medal-detail">Perú · 2002 · 2003 · 2004 · 2005</div></div></div>
-        <div class="medal-row"><span class="medal-ico">♟</span><div><div class="medal-title">Campeón Interescolar — Ajedrez</div><div class="medal-detail">Perú · varios años consecutivos</div></div></div>
+        <div class="medal-row"><span class="medal-ico">🥈</span><div><div class="medal-title" data-en="World Runner-Up — Luta Livre Esportiva" data-es="Subcampeón Mundial — Luta Livre Esportiva">World Runner-Up — Luta Livre Esportiva</div><div class="medal-detail" data-en="World Championship · Brazil 2022" data-es="World Championship · Brasil 2022">World Championship · Brazil 2022</div></div></div>
+        <div class="medal-row"><span class="medal-ico">🏆</span><div><div class="medal-title" data-en="National Champion — Muay Thai" data-es="Campeón Nacional — Muay Thai">National Champion — Muay Thai</div><div class="medal-detail" data-en="Peru · 2002 · 2003 · 2004 · 2005" data-es="Perú · 2002 · 2003 · 2004 · 2005">Peru · 2002 · 2003 · 2004 · 2005</div></div></div>
+        <div class="medal-row"><span class="medal-ico">♟</span><div><div class="medal-title" data-en="Interschool Champion — Chess" data-es="Campeón Interescolar — Ajedrez">Interschool Champion — Chess</div><div class="medal-detail" data-en="Peru · multiple consecutive years" data-es="Perú · varios años consecutivos">Peru · multiple consecutive years</div></div></div>
       </div>
     </div>
 
     <div class="sport-more">
-      <div class="sport-more-label">También practica</div>
+      <div class="sport-more-label" data-en="Also trains" data-es="También practica">Also trains</div>
       <div class="sport-pills">
-        <span class="sp">Boxeo</span><span class="sp">Jiu-Jitsu</span><span class="sp">Lucha Libre</span><span class="sp">Kung Fu</span><span class="sp">Karate</span><span class="sp">Taekwondo</span><span class="sp">Surf</span><span class="sp">Tenis</span><span class="sp">Golf</span>
+        <span class="sp">Boxing</span><span class="sp">Jiu-Jitsu</span><span class="sp">Wrestling</span><span class="sp">Kung Fu</span><span class="sp">Karate</span><span class="sp">Taekwondo</span><span class="sp">Surf</span><span class="sp">Tennis</span><span class="sp">Golf</span>
       </div>
     </div>
 
     <div class="divider"></div>
 
-    <div class="eyebrow">El lado humano</div>
-    <h2>Emprender con propósito<br>y con pilares <span>sólidos.</span></h2>
+    <div class="eyebrow" data-en="The human side" data-es="El lado humano">The human side</div>
+    <h2 data-en="Building with purpose and <span>solid foundations.</span>" data-es="Emprender con propósito y con pilares <span>sólidos.</span>">Building with purpose and <span>solid foundations.</span></h2>
 
     <div class="human-grid">
       <div class="hcard blue-tint">
-        <div class="hc-big">Casado.<br>Padre de 3.<br>Con 1 perro.</div>
-        <div class="hc-sub">Que me dan la energía necesaria para construir sin rendirme.</div>
+        <div class="hc-big" data-en="Married.<br>Father of 3.<br>Dog dad." data-es="Casado.<br>Padre de 3.<br>Con 1 perro.">Married.<br>Father of 3.<br>Dog dad.</div>
+        <div class="hc-sub" data-en="They give me the energy to keep building without giving up." data-es="Que me dan la energía necesaria para construir sin rendirme.">They give me the energy to keep building without giving up.</div>
       </div>
       <div class="hcard">
         <div class="hc-list">
-          <div class="hc-item"><svg><use href="#ico-heart"/></svg>Familia es el motor, no el freno</div>
-          <div class="hc-item"><svg><use href="#ico-run"/></svg>El deporte es mi desestres</div>
-          <div class="hc-item"><svg><use href="#ico-brain"/></svg>Salud: mente, cuerpo y alma</div>
-          <div class="hc-item"><svg><use href="#ico-pin"/></svg>Lima, Perú · operando globalmente</div>
+          <div class="hc-item"><svg><use href="#ico-heart"/></svg><span data-en="Family is the engine, not the obstacle" data-es="Familia es el motor, no el freno">Family is the engine, not the obstacle</span></div>
+          <div class="hc-item"><svg><use href="#ico-run"/></svg><span data-en="Sport is how I decompress" data-es="El deporte es mi desestres">Sport is how I decompress</span></div>
+          <div class="hc-item"><svg><use href="#ico-brain"/></svg><span data-en="Health: mind, body and soul" data-es="Salud: mente, cuerpo y alma">Health: mind, body and soul</span></div>
+          <div class="hc-item"><svg><use href="#ico-pin"/></svg><span data-en="Lima, Peru · operating globally" data-es="Lima, Perú · operando globalmente">Lima, Peru · operating globally</span></div>
         </div>
       </div>
     </div>
 
     <div class="build-block">
-      <div class="build-ey">Construyendo ahora mismo</div>
+      <div class="build-ey" data-en="Building right now" data-es="Construyendo ahora mismo">Building right now</div>
       <div class="build-h">EventOS — AI-Native<br>Events Operating System</div>
-      <p class="build-p">La fusión de 20+ años operando eventos con ingeniería AI-native. Automatización end-to-end para productoras de eventos a nivel global — inventarios, expedientes, agentes autónomos y más. Imposible de replicar sin haber vivido el problema desde adentro.</p>
+      <p class="build-p" data-en="The fusion of 20+ years running events with AI-native engineering. End-to-end automation for event production companies worldwide — inventory, event files, autonomous agents, and more. Impossible to replicate without having lived the problem from the inside." data-es="La fusión de 20+ años operando eventos con ingeniería AI-native. Automatización end-to-end para productoras de eventos a nivel global — inventarios, expedientes, agentes autónomos y más. Imposible de replicar sin haber vivido el problema desde adentro.">The fusion of 20+ years running events with AI-native engineering. End-to-end automation for event production companies worldwide — inventory, event files, autonomous agents, and more. Impossible to replicate without having lived the problem from the inside.</p>
       <div class="build-pills">
-        <span class="build-pill">Multi-tenant SaaS</span><span class="build-pill">AI-native</span><span class="build-pill">Agentes autónomos</span><span class="build-pill">Ops en tiempo real</span><span class="build-pill">Supabase · React · Vercel</span>
+        <span class="build-pill">Multi-tenant SaaS</span><span class="build-pill">AI-native</span><span class="build-pill">Autonomous agents</span><span class="build-pill">Real-time ops</span><span class="build-pill">Supabase · React · Vercel</span>
       </div>
       <div class="build-btns">
-        <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="btn-white">Ver el producto →</a>
-        <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" class="btn-outline-w">Conectar →</a>
+        <a href="https://events-operating-system.github.io/events-landing/" target="_blank" class="btn-white" data-en="See the product →" data-es="Ver el producto →">See the product →</a>
+        <a href="https://www.linkedin.com/in/javier-bambaren-dabdoub/" target="_blank" class="btn-outline-w" data-en="Connect →" data-es="Conectar →">Connect →</a>
       </div>
     </div>
 
@@ -452,10 +451,43 @@
         <a href="https://www.youtube.com/@javierbambarendabdoub" target="_blank"><svg><use href="#ico-youtube"/></svg>YouTube</a>
         <a href="https://github.com/JBD84" target="_blank"><svg><use href="#ico-github"/></svg>GitHub</a>
       </div>
-      <div class="footer-tagline">Buscando lo imposible. Ejecutando lo inevitable.</div>
-      <div class="footer-copy"><svg style="width:12px;height:12px;stroke:#bbb;fill:none;stroke-width:1.8"><use href="#ico-copyright"/></svg> Derechos reservados JBD 2026</div>
+      <div class="footer-tagline" data-en="Chasing the impossible. Executing the inevitable." data-es="Buscando lo imposible. Ejecutando lo inevitable.">Chasing the impossible. Executing the inevitable.</div>
+      <div class="footer-copy"><svg style="width:12px;height:12px;stroke:#bbb;fill:none;stroke-width:1.8"><use href="#ico-copyright"/></svg><span data-en="All rights reserved JBD 2026" data-es="Derechos reservados JBD 2026">All rights reserved JBD 2026</span></div>
     </div>
   </footer>
+
+  <script>
+    function setLang(lang) {
+      document.documentElement.lang = lang;
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.innerHTML = lang === 'en' ? el.dataset.en : el.dataset.es;
+      });
+      // formula special case
+      const formula = document.querySelector('.formula');
+      if (formula) {
+        if (lang === 'es') {
+          formula.innerHTML = 'Disciplina <span class="op">+</span> Constancia <span class="op">+</span> Talento <span class="op">+</span> 1% de suerte <span class="op">=</span> <span class="result">Éxito</span>';
+        } else {
+          formula.innerHTML = 'Discipline <span class="op">+</span> Consistency <span class="op">+</span> Talent <span class="op">+</span> 1% luck <span class="op">=</span> <span class="result">Success</span>';
+        }
+      }
+      // sport pills
+      const pills = document.querySelector('.sport-pills');
+      if (pills) {
+        if (lang === 'es') {
+          pills.innerHTML = '<span class="sp">Boxeo</span><span class="sp">Jiu-Jitsu</span><span class="sp">Lucha Libre</span><span class="sp">Kung Fu</span><span class="sp">Karate</span><span class="sp">Taekwondo</span><span class="sp">Surf</span><span class="sp">Tenis</span><span class="sp">Golf</span>';
+        } else {
+          pills.innerHTML = '<span class="sp">Boxing</span><span class="sp">Jiu-Jitsu</span><span class="sp">Wrestling</span><span class="sp">Kung Fu</span><span class="sp">Karate</span><span class="sp">Taekwondo</span><span class="sp">Surf</span><span class="sp">Tennis</span><span class="sp">Golf</span>';
+        }
+      }
+      localStorage.setItem('jbd-lang', lang);
+    }
+    // on load check saved preference
+    const saved = localStorage.getItem('jbd-lang') || 'en';
+    if (saved !== 'en') setLang(saved);
+  </script>
 
 </body>
 </html>
